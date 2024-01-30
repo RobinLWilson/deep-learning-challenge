@@ -1,8 +1,8 @@
 # deep-learning-challenge
 Overview of the analysis: The purposed of this analysis is to predict the "successful" charities (i.e. the ones who met their fundraising goal) through using neural networks and tensor flow.
 Results: (Optimization changes in bold)
-|--------------------|Baseline       |Optimization #1|Optimization #2|Optimization #3|
-|--------------------|---------------|---------------|---------------|---------------|
+|--------------------|Baseline       |Optimization #1     |Optimization #2    |Optimization #3     |
+|--------------------|---------------|--------------------|-------------------|--------------------|
 |Accuracy:           |   72.81%      |    72.26%     |   72.28%      |   72.19%      |
 |Target Variable(s): |IS_SUCCESSFUL  |IS_SUCCESSFUL  |IS_SUCCESSFUL  |IS_SUCCESSFUL  |
 |Feature Variable(s):|<ul><li>ASK_AMT</li> <li>APPLICATION_TYPE(9 groups)</li> <li>CLASSIFICATION(6 groups)</li> <li>INCOME_AMT(8 groups)</li> <li>SPECIAL_CONSIDERATIONS:(2 groups)</li></ul>|<ul><li>ASK_AMT</li> **<li>APPLICATION_TYPE(6 groups)</li> <li>CLASSIFICATION(4 groups)</li>** <li>INCOME_AMT(8 groups)</li> <li>SPECIAL_CONSIDERATIONS:(2 groups)</li></ul>|<ul><li>ASK_AMT</li> **<li>APPLICATION_TYPE(6 groups)</li> <li>CLASSIFICATION(4 groups)</li>** <li>INCOME_AMT(8 groups)</li> <li>SPECIAL_CONSIDERATIONS:(2 groups)</li></ul>|<ul><li>ASK_AMT</li> **<li>APPLICATION_TYPE(6 groups)</li> <li>CLASSIFICATION(4 groups)</li>** <li>INCOME_AMT(8 groups)</li> <li>SPECIAL_CONSIDERATIONS:(2 groups)</li></ul>| 
