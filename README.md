@@ -1,6 +1,14 @@
 # deep-learning-challenge
 Overview of the analysis: The purposed of this analysis is to predict the "successful" charities (i.e. the ones who met their fundraising goal) through using neural networks and tensor flow.
 
+|--------------------|Baseline       |Optimization #1|Optimization #2|Optimization #3|
+|--------------------|---------------|---------------|---------------|---------------|
+|Accuracy:           |   72%         |               |               |               |
+|Target Variable(s): |IS_SUCCESSFUL  |IS_SUCCESSFUL  |IS_SUCCESSFUL  |IS_SUCCESSFUL  |
+|Feature Variable(s):|               |               |               |               | 
+|Variables Removed:  | EIN, NAMES    |EIN, NAMES, USE_CASE|EIN, NAMES, USE_CASE|EIN, NAMES, USE_CASE|
+  
+
 Results:                                                                                                 
 **Baseline:** 
 Accuracy: 72.8%
