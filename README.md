@@ -5,8 +5,8 @@ Overview of the analysis: The purposed of this analysis is to predict the "succe
 |--------------------|---------------|---------------|---------------|---------------|
 |Accuracy:           |   72%         |               |               |               |
 |Target Variable(s): |IS_SUCCESSFUL  |IS_SUCCESSFUL  |IS_SUCCESSFUL  |IS_SUCCESSFUL  |
-|Feature Variable(s):|ASK_AMT, APPLICATION_TYPE(9 groups), CLASSIFICATION(6 groups), INCOME_AMT(8 groups), SPECIAL_CONSIDERATIONS:(2 groups)|               |               |               | 
-|Variables Removed:  | EIN, NAMES    |EIN, NAMES, USE_CASE|EIN, NAMES, USE_CASE|EIN, NAMES, USE_CASE|
+|Feature Variable(s):|<ul><li>ASK_AMT</li> <li>APPLICATION_TYPE(9 groups)</li> <li>CLASSIFICATION(6 groups)</li> <li>INCOME_AMT(8 groups)</li> <li>SPECIAL_CONSIDERATIONS:(2 groups)</li></ul>|               |               |               | 
+|Variables Removed:  | <ul><li>EIN</li> <li>NAMES</li></ul>    |<ul><li>EIN</li> <li>NAMES</li><li>USE_CASE</li></ul>|<ul><li>EIN</li> <li>NAMES</li><li>USE_CASE</li></ul>|<ul><li>EIN</li> <li>NAMES</li><li>USE_CASE</li></ul>|
 |Layers, Neurons, Activation Functions:|   - Hidden Layer 1: 80, relu - Hidden Layer 2: 30, relu - Output Layer: 1, Sigmoid                  |                    |                       |              |
 |Target Model Achieved?| no | no | no | no | 
 
