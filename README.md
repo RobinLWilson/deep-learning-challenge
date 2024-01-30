@@ -1,18 +1,28 @@
 # deep-learning-challenge
-                                                    Accurancy:
-Baseline:                                           72.8%
+Overview of the analysis: The purposed of this analysis is to predict the "successful" charities (i.e. the ones who met their fundraising goal) through using neural networks and tensor flow.
 
-Optimization #1:                                    72.26%
+Results:                                                                                                 
+**Baseline:** 
+Accuracy: 72.8%
+Target Variable(s): IS_SUCCESSFUL
+Feature Variable(s): 
+  Application_types organizedinto 9 groups
+  Classification organized into 6 groups
+  Income organized into 8 groups
+  Special Considerations organized into 2 groups
+Variables removed:
+  
+**Optimization #1:** 
+Accuracy: 72.26%
 
-Optimization #2:                                    72.28%
+**Optimization #2: **
+Accuracy: 72.28%
 
-Optimization #3:                                    72.19%
 
-Overview of the analysis: Explain the purpose of this analysis.
+**Optimization #3: **
+Accuracy: 72.19%
 
-Results: Using bulleted lists and images to support your answers, address the following questions:
 
-Data Preprocessing
 
 What variable(s) are the target(s) for your model?
 What variable(s) are the features for your model?
