@@ -1,5 +1,5 @@
 # deep-learning-challenge
-Overview of the analysis: The purposed of this analysis is to predict the "successful" charities (i.e. the ones who met their fundraising goal) through using neural networks and tensor flow.
+The purpose of this analysis is to predict the "successful" charities (i.e. the ones who met their fundraising goal) through using neural networks and tensor flow.
 
 Results: (Optimization changes in bold)
 |--------------------|Baseline       |Optimization #1     |Optimization #2    |Optimization #3                  |
