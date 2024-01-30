@@ -16,7 +16,6 @@ Layers, Neurons, and Activation Functions Selected:
   Hidden Layer 1: 80, relu
   Hidden Layer 2: 30, relu
   Output Layer: 1, Sigmoid
-
 Target Model Performance Achieved?  No
   
 **Optimization #1:** 
