@@ -5,21 +5,13 @@ Overview of the analysis: The purposed of this analysis is to predict the "succe
 |--------------------|---------------|---------------|---------------|---------------|
 |Accuracy:           |   72%         |               |               |               |
 |Target Variable(s): |IS_SUCCESSFUL  |IS_SUCCESSFUL  |IS_SUCCESSFUL  |IS_SUCCESSFUL  |
-|Feature Variable(s):|               |               |               |               | 
+|Feature Variable(s):|ASK_AMT, APPLICATION_TYPE: organized into 9 groups, CLASSIFICATION: organized into 6 groups, INCOME_AMT: organized into 8 groups, SPECIAL_CONSIDERATIONS: organized into 2 groups|               |               |               | 
 |Variables Removed:  | EIN, NAMES    |EIN, NAMES, USE_CASE|EIN, NAMES, USE_CASE|EIN, NAMES, USE_CASE|
-  
+|Layers, Neurons, Activation Functions:|                   |                    |                       |              |
+|Target Model Achieved?| no | no | no | no | 
 
 Results:                                                                                                 
 **Baseline:** 
-Accuracy: 72.8%
-Target Variable(s): IS_SUCCESSFUL
-Feature Variable(s): 
-  ASK_AMT
-  APPLICATION_TYPE: organized into 9 groups
-  CLASSIFICATION: organized into 6 groups
-  INCOME_AMT: organized into 8 groups
-  SPECIAL_CONSIDERATIONS: organized into 2 groups
-Variables removed: EIN, NAME
 Layers, Neurons, and Activation Functions Selected: 
   Hidden Layer 1: 80, relu
   Hidden Layer 2: 30, relu
