@@ -11,12 +11,11 @@ Feature Variable(s):
   CLASSIFICATION: organized into 6 groups
   INCOME_AMT: organized into 8 groups
   SPECIAL_CONSIDERATIONS: organized into 2 groups
-Variables removed: None 
-Neurons & Layers Selected: 
-  Hidden Layer 1: 80
-  Hidden Layer 2: 30
-  Output Layer: 1
-Activation Functions Selected: Sigmoid
+Variables removed: EIN, NAME
+Layers, Neurons, and Activation Functions Selected: 
+  Hidden Layer 1: 80, relu
+  Hidden Layer 2: 30, relu
+  Output Layer: 1, Sigmoid
 
 Target Model Performance Achieved?  No
   
@@ -30,13 +29,11 @@ Feature Variable(s):
 **  CLASSIFICATION: organized into 4 groups**
   INCOME_AMT: organized into 8 groups
   SPECIAL_CONSIDERATIONS: organized into 2 groups
-**Variables removed: USE_CASE**
-Neurons & Layers Selected: 
-  Hidden Layer 1: 80
-  Hidden Layer 2: 30
-  Output Layer: 1
-Activation Functions Selected: Sigmoid
-
+Variables removed: EIN, NAME, **USE_CASE**
+Layers, Neurons, and Activation Functions Selected:
+  Hidden Layer 1: 80, relu
+  Hidden Layer 2: 30, relu
+  Output Layer: 1, Sigmoid
 Target Model Performance Achieved?  No
 
 ****Optimization #2: ****
@@ -49,14 +46,12 @@ Feature Variable(s):
   **CLASSIFICATION: organized into 4 groups**
   INCOME_AMT: organized into 8 groups
   SPECIAL_CONSIDERATIONS: organized into 2 groups
-**Variables removed: USE_CASE**
-Neurons & Layers Selected: 
-  Hidden Layer 1: 100
-  Hidden Layer 2: 50
-  Hidden Layer 3: 20
-  Output Layer: 1
-Activation Functions Selected: Sigmoid
-
+Variables removed: EIN, NAME, **USE_CASE**
+**Layers, Neurons, and Activation Functions Selected:**
+  Hidden Layer 1: **100**, relu
+  Hidden Layer 2: **50**, relu
+  Hidden Layer 3: **20**, relu
+  **Output Layer: 1**, Sigmoid
 Target Model Performance Achieved?  No
 
 **Optimization #3: **
@@ -68,21 +63,14 @@ Feature Variable(s):
   **CLASSIFICATION: organized into 4 groups**
   INCOME_AMT: organized into 8 groups
   SPECIAL_CONSIDERATIONS: organized into 2 groups
-**Variables removed: USE_CASE**
-Neurons & Layers Selected: 
-  Hidden Layer 1: 100
-  Hidden Layer 2: 50
-  Hidden Layer 3: 20
-  Output Layer: 1
-Activation Functions Selected: Sigmoid
+Variables removed: EIN, NAME, **USE_CASE**
+**Layers, Neurons, and Activation Functions Selected:**
+  Hidden Layer 1: 100, **Sigmoid**
+  Hidden Layer 2: 50, **Sigmoid**
+  Hidden Layer 3: 20, **Sigmoid**
+  Output Layer: 1, **Sigmoid**
+Target Model Performance Achieved?  No
 
+I was not able to increase model performance in any of the 3 optimatizations- the basis model remains the most accurate model. 
 
-What variable(s) are the target(s) for your model?
-What variable(s) are the features for your model?
-What variable(s) should be removed from the input data because they are neither targets nor features?
-Compiling, Training, and Evaluating the Model
-
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take in your attempts to increase model performance?
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+In future models it might be worthy to look at AFFILATION and USE_CASE as those factors might influence the outcome more dramatically because Corporate Sponsorship and the purpose of the charity might have greater influence on the outcomes.
