@@ -6,22 +6,75 @@ Results:
 Accuracy: 72.8%
 Target Variable(s): IS_SUCCESSFUL
 Feature Variable(s): 
-  Application_types organizedinto 9 groups
-  Classification organized into 6 groups
-  Income organized into 8 groups
-  Special Considerations organized into 2 groups
-Variables removed:
+  ASK_AMT
+  APPLICATION_TYPE: organized into 9 groups
+  CLASSIFICATION: organized into 6 groups
+  INCOME_AMT: organized into 8 groups
+  SPECIAL_CONSIDERATIONS: organized into 2 groups
+Variables removed: None 
+Neurons & Layers Selected: 
+  Hidden Layer 1: 80
+  Hidden Layer 2: 30
+  Output Layer: 1
+Activation Functions Selected: Sigmoid
+
+Target Model Performance Achieved?  No
   
 **Optimization #1:** 
+Steps to Optimize model in bold  
 Accuracy: 72.26%
+Target Variable(s): IS_SUCCESSFUL
+Feature Variable(s): 
+  ASK_AMT
+**  APPLICATION_TYPE: organized into 6 groups**
+**  CLASSIFICATION: organized into 4 groups**
+  INCOME_AMT: organized into 8 groups
+  SPECIAL_CONSIDERATIONS: organized into 2 groups
+**Variables removed: USE_CASE**
+Neurons & Layers Selected: 
+  Hidden Layer 1: 80
+  Hidden Layer 2: 30
+  Output Layer: 1
+Activation Functions Selected: Sigmoid
 
-**Optimization #2: **
+Target Model Performance Achieved?  No
+
+****Optimization #2: ****
+Steps to Optimize model in bold 
 Accuracy: 72.28%
+Target Variable(s): IS_SUCCESSFUL
+Feature Variable(s): 
+  ASK_AMT
+  **APPLICATION_TYPE: organized into 6 groups**
+  **CLASSIFICATION: organized into 4 groups**
+  INCOME_AMT: organized into 8 groups
+  SPECIAL_CONSIDERATIONS: organized into 2 groups
+**Variables removed: USE_CASE**
+Neurons & Layers Selected: 
+  Hidden Layer 1: 100
+  Hidden Layer 2: 50
+  Hidden Layer 3: 20
+  Output Layer: 1
+Activation Functions Selected: Sigmoid
 
+Target Model Performance Achieved?  No
 
 **Optimization #3: **
 Accuracy: 72.19%
-
+Target Variable(s): IS_SUCCESSFUL
+Feature Variable(s): 
+  ASK_AMT
+  **APPLICATION_TYPE: organized into 6 groups**
+  **CLASSIFICATION: organized into 4 groups**
+  INCOME_AMT: organized into 8 groups
+  SPECIAL_CONSIDERATIONS: organized into 2 groups
+**Variables removed: USE_CASE**
+Neurons & Layers Selected: 
+  Hidden Layer 1: 100
+  Hidden Layer 2: 50
+  Hidden Layer 3: 20
+  Output Layer: 1
+Activation Functions Selected: Sigmoid
 
 
 What variable(s) are the target(s) for your model?
