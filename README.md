@@ -1,20 +1,16 @@
 # deep-learning-challenge
 Overview of the analysis: The purposed of this analysis is to predict the "successful" charities (i.e. the ones who met their fundraising goal) through using neural networks and tensor flow.
-
+Results:
 |--------------------|Baseline       |Optimization #1|Optimization #2|Optimization #3|
 |--------------------|---------------|---------------|---------------|---------------|
 |Accuracy:           |   72%         |               |               |               |
 |Target Variable(s): |IS_SUCCESSFUL  |IS_SUCCESSFUL  |IS_SUCCESSFUL  |IS_SUCCESSFUL  |
 |Feature Variable(s):|<ul><li>ASK_AMT</li> <li>APPLICATION_TYPE(9 groups)</li> <li>CLASSIFICATION(6 groups)</li> <li>INCOME_AMT(8 groups)</li> <li>SPECIAL_CONSIDERATIONS:(2 groups)</li></ul>|               |               |               | 
 |Variables Removed:  | <ul><li>EIN</li> <li>NAMES</li></ul>    |<ul><li>EIN</li> <li>NAMES</li><li>USE_CASE</li></ul>|<ul><li>EIN</li> <li>NAMES</li><li>USE_CASE</li></ul>|<ul><li>EIN</li> <li>NAMES</li><li>USE_CASE</li></ul>|
-|Layers, Neurons, Activation Functions:|   - Hidden Layer 1: 80, relu - Hidden Layer 2: 30, relu - Output Layer: 1, Sigmoid                  |                    |                       |              |
+|Layers, Neurons, Activation Functions:|<ul><li>Hidden Layer 1: 80, relu</li> <li>Hidden Layer 2: 30, relu</li> <li>Output Layer: 1, Sigmoid</li> </ul>|                    |                       |              |
 |Target Model Achieved?| no | no | no | no | 
 
 Results:                                                                                                 
-**Baseline:** 
-Layers, Neurons, and Activation Functions Selected: 
-
-  
 **Optimization #1:** 
 Steps to Optimize model in bold  
 Accuracy: 72.26%
